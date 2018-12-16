@@ -1,0 +1,8 @@
+CREATE TABLE users
+(
+  id SERIAL NOT NULL PRIMARY KEY,
+  first_name VARCHAR(200),
+  last_name VARCHAR(200),
+  email VARCHAR(200),
+  cur_date DATE NOT NULL DEFAULT CURRENT_DATE
+);
